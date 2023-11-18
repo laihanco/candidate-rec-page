@@ -1,0 +1,41 @@
+@tailwind utilities;
+@tailwind components;
+@tailwind base;
+
+@layer components {
+  .h0 {
+    @apply text-[52px] md:text-[64px] font-black -tracking-tighter bg-gradient bg-clip-text text-transparent;
+  }
+
+  .h1 {
+    @apply text-[32px] md:text-[40px] font-semibold -tracking-tighter;
+  }
+
+  .h2 {
+    @apply text-2xl md:text-[32px] font-semibold;
+  }
+
+  .h3 {
+    @apply text-2xl md:text-[28px] font-semibold;
+  }
+
+  .h4 {
+    @apply text-2xl font-semibold;
+  }
+
+  .h5 {
+    @apply text-xl font-semibold;
+  }
+
+  .bg-gradient {
+    @apply bg-gradient-to-r from-[#E6793B] from-[1.54%] to-[#FF4185] to-[97.86%];
+  }
+
+  .tag {
+    @apply text-sm md:text-base uppercase inline-block bg-dark text-white rounded-lg py-2 px-3;
+  }
+
+  .btn {
+    @apply font-semibold py-4 px-6 bg-slate-100 rounded-full;
+  }
+}
