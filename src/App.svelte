@@ -63,7 +63,7 @@
       </div>
     </div>
 
-    <img src="/images/banner-man.png" alt="Miao Li-Han" class="px-4 mx-auto">
+    <img src="./images/banner-man.png" alt="Miao Li-Han" class="px-4 mx-auto">
   </section>
 
   <ul class="flex flex-nowrap gap-6 overflow-hidden text-[40px] xl:text-[64px] font-semibold	 text-white bg-pirmary">
@@ -89,7 +89,7 @@
         </p>
       </div>
 
-      <img src="/images/praying-man@3x.png" alt="praying Miao Li-Han" 
+      <img src="./images/praying-man@3x.png" alt="praying Miao Li-Han" 
         class="xl:w-1/2 rounded-b-3xl xl:rounded-bl-none xl:rounded-r-2xl"
       >
     </div>
@@ -102,7 +102,7 @@
     </div>
 
     <article class="mb-6">
-      <img src="/images/events/{events[0].image}" alt="{events[0].image}" 
+      <img src="./images/events/{events[0].image}" alt="{events[0].image}" 
         class="w-full object-fill object-center rounded-2xl"
       >
       
@@ -117,7 +117,7 @@
       <article class="flex mb-6 gap-2">
         <div class="flex-none">
           <img
-            src="/images/events/{image}" alt="{image}"
+            src="./images/events/{image}" alt="{image}"
             class="w-[109px] object-fill object-center rounded-xl"
           >
         </div>
@@ -132,7 +132,7 @@
 
     <button class="btn flex items-center">
       查看更多
-      <img src="/icons/arrow-right.svg" alt="arrow right" class="ml-4 text-8">
+      <img src="./icons/arrow-right.svg" alt="arrow right" class="ml-4 text-8">
     </button>
   </section>
 
@@ -146,7 +146,7 @@
       {#each policies as {image, title}}
       <li class="flex flex-col justify-between">
         <h3 class="h4 mb-4">{@html title}</h3>
-        <img src="/images/policies/{image}" alt="{image}" class="h-[267px] rounded-3xl object-cover">
+        <img src="./images/policies/{image}" alt="{image}" class="h-[267px] rounded-3xl object-cover">
       </li>
       {/each}
     </ul>
@@ -154,7 +154,7 @@
 
   <section class="bg-light py-16 px-4">
     <div class="xl:max-w-7xl mx-auto flex flex-col md:flex-row gap-6">
-      <div id="donate" class="w-1/2 bg-pirmary py-5 px-6 rounded-[32px] space-y-4 md:scroll-mt-16">
+      <div id="donate" class="md:w-1/2 bg-pirmary py-5 px-6 rounded-[32px] space-y-4 md:scroll-mt-16">
         <h3 class="text-white font-black text-[40px]">小額支持喵喵</h3>
 
         <p class="text-white font-semibold text-xl">您的小筆捐款，是每隻毛孩未來的大大動力！</p>
@@ -163,15 +163,15 @@
           <div class="w-1/2">
             <button class="btn flex items-center">
               小額捐款
-              <img src="/icons/arrow-right.svg" alt="arrow right" class="ml-4 text-8">
+              <img src="./icons/arrow-right.svg" alt="arrow right" class="ml-4 text-8">
             </button>
           </div>
 
-          <img src="/images/donate@3x.png" alt="donate" class="w-1/2">
+          <img src="./images/donate@3x.png" alt="donate" class="w-1/2">
         </div>
       </div>
 
-      <div id="mail" class="w-1/2 bg-dark py-5 px-6 rounded-[32px] space-y-4 md:scroll-mt-16">
+      <div id="mail" class="md:w-1/2 bg-dark py-5 px-6 rounded-[32px] space-y-4 md:scroll-mt-16">
         <h3 class="text-white font-black text-[40px]">民眾服務信箱</h3>
         
         <p class="text-white font-semibold text-xl">親愛的鄉親，每一位市民的意見都是我們社區前進的原動力</p>
@@ -180,11 +180,11 @@
           <div class="w-1/2">
             <button class="btn flex items-center">
               填寫表單
-              <img src="/icons/arrow-right.svg" alt="arrow right" class="ml-4 text-8">
+              <img src="./icons/arrow-right.svg" alt="arrow right" class="ml-4 text-8">
             </button>
           </div>
           
-          <img src="/images/envelope@3x.png" alt="donate" class="w-1/2">
+          <img src="./images/envelope@3x.png" alt="donate" class="w-1/2">
         </div>
       </div>
     </div>
@@ -216,13 +216,13 @@
 
     <ul class="flex gap-2">
       <li class="w-12 h-12 flex justify-center items-center bg-white rounded-full cursor-not-allowed">
-        <img src="/icons/fb.svg" alt="fb" class="w-[28px]">
+        <img src="./icons/fb.svg" alt="fb" class="w-[28px]">
       </li>
       <li class="w-12 h-12 flex justify-center items-center bg-white rounded-full cursor-not-allowed">
-        <img src="/icons/ig.svg" alt="ig" class="w-[28px]">
+        <img src="./icons/ig.svg" alt="ig" class="w-[28px]">
       </li>
       <li class="w-12 h-12 flex justify-center items-center bg-white rounded-full cursor-not-allowed">
-        <img src="/icons/youtube.svg" alt="youtube" class="w-[28px]">
+        <img src="./icons/youtube.svg" alt="youtube" class="w-[28px]">
       </li>
     </ul>
 
