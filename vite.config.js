@@ -6,10 +6,7 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 import postcss from './postcss.config.js';
 
 export default defineConfig({
-  base: './',
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/candidate-rec-page/'
-    : '/',
+  base: '/candidate-rec-page/',
   plugins: [svelte()],
   resolve: {
     alias: {
