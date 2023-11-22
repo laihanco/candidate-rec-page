@@ -154,7 +154,7 @@
 
   <section class="bg-light py-16 px-4">
     <div class="xl:max-w-7xl mx-auto flex flex-col md:flex-row gap-6">
-      <div id="donate" class="bg-pirmary py-5 px-6 rounded-[32px] space-y-4 md:scroll-mt-16">
+      <div id="donate" class="w-1/2 bg-pirmary py-5 px-6 rounded-[32px] space-y-4 md:scroll-mt-16">
         <h3 class="text-white font-black text-[40px]">小額支持喵喵</h3>
 
         <p class="text-white font-semibold text-xl">您的小筆捐款，是每隻毛孩未來的大大動力！</p>
@@ -171,7 +171,7 @@
         </div>
       </div>
 
-      <div id="mail" class="bg-dark py-5 px-6 rounded-[32px] space-y-4 md:scroll-mt-16">
+      <div id="mail" class="w-1/2 bg-dark py-5 px-6 rounded-[32px] space-y-4 md:scroll-mt-16">
         <h3 class="text-white font-black text-[40px]">民眾服務信箱</h3>
         
         <p class="text-white font-semibold text-xl">親愛的鄉親，每一位市民的意見都是我們社區前進的原動力</p>
